@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css://style.css">
+    <title>KalKulator BMI </title>
+</head>
+<br>
+    <h1>Kalkulator BMI</h1>
+    <p>Berat badan ideal adalah impian semua orang.Tidak hanya memiliki bentuk tubuh yang menunjang
+    penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? yuk, hitung sekarang di kakulator BMI</p>
+    <br class="part">
+        <b>Jenis Kelamin</b>
+        <br>
+        <label class="container">
+        <input type="radio" name="radio" id="p">
+        <label for="part">Pria</label>
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">
+        <input type="radio" name="radio" id="w">
+        <label for="part">Wanita</label>
+        <span class="checkmark"></span>
+    </label>
+</br>
+<br>
+      <label class="container">
+      <label for="part">Berat Badan (Kg)</label><br>
+      <input type="text" class="text-input" id="beratbadan" autocomplete="off" required>
+      </label>
+    </br>
+    <br>
+    <label class="container">
+        <label for="part">Usia</label><br>
+        <input type="text" class="text-input" id="usia" autocomplete="off" required>
+        </label>
+      </br>
+      <br>
+      <label class="container">
+        <label for="part">Tinggi Badan (Cm)</label><br>
+        <input type="text" class="text-input" id="tinggibadan" autocomplete="off" required>
+        </label>
+      </br>
+      <br>
+    <button id="hitung" type="submit" class="button">Hitung BMI</button>
+    <button id="reset" type="reset" class="button">Reset</button>
+</br>
+<br>
+<label for="bmi-output" id="bmilabel">Hitung BMI:</label><input type="text" id="bmi-output">    
+    <br id="table">
+</br>
+        <table>
+            <caption>BMI INDEX</caption>
+            
+             <p><th>Kekurangan Berat Badan</th></p>
+              <h6><th>Normal (Ideal)</th></h6>
+              <h6><th>Kelebihan Berat Badan</th></h6>
+              <h6><th>Kegemukan (Obesitas)</th></h6>
+            </tr>
+            <tr>
+              <td>Kurang dari 18.5</td>
+              <td>18.5–24.9</td>
+              <td>25.0–29.9</td>
+              <td>30.0 atau lebih</td>
+            </tr>
+          </table>
+    </div>
+</div>
+    <script src="js://script.js"></script>
+</body>
+</html>
